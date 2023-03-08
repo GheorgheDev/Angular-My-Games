@@ -1,0 +1,22 @@
+.container-table {
+  width: 70%;
+  margin: auto;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__h2 {
+    margin: 0;
+  }
+
+  &__icon {
+    width: 1.5rem;
+  }
+
+  &__table {
+    width: 100%;
+  }
+}

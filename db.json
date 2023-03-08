@@ -1,0 +1,406 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Gheorghe",
+      "email": "gheorghe@gmail.com",
+      "password": "1234",
+      "games": [
+        {
+          "id": 1,
+          "title": "Super Mario Bros.",
+          "release_year": 1985,
+          "developer": "Nintendo",
+          "genre": "Platformer"
+        },
+        {
+          "id": 2,
+          "title": "The Legend of Zelda: Ocarina of Time",
+          "release_year": 1998,
+          "developer": "Nintendo",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 3,
+          "title": "Grand Theft Auto V",
+          "release_year": 2013,
+          "developer": "Rockstar North",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 4,
+          "title": "Minecraft",
+          "release_year": 2011,
+          "developer": "Mojang Studios",
+          "genre": "Sandbox"
+        },
+        {
+          "id": 5,
+          "title": "Fortnite",
+          "release_year": 2017,
+          "developer": "Epic Games",
+          "genre": "Battle royale"
+        },
+        {
+          "id": 6,
+          "title": "Call of Duty: Modern Warfare",
+          "release_year": 2019,
+          "developer": "Infinity Ward",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 7,
+          "title": "Halo: Combat Evolved",
+          "release_year": 2001,
+          "developer": "Bungie",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 8,
+          "title": "Final Fantasy VII",
+          "release_year": 1997,
+          "developer": "Square",
+          "genre": "Role-playing"
+        },
+        {
+          "id": 9,
+          "title": "God of War",
+          "release_year": 2018,
+          "developer": "Santa Monica Studio",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 10,
+          "title": "Red Dead Redemption 2",
+          "release_year": 2018,
+          "developer": "Rockstar Studios",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 11,
+          "title": "The Elder Scrolls V: Skyrim",
+          "release_year": 2011,
+          "developer": "Bethesda Game Studios",
+          "genre": "Action role-playing"
+        },
+        {
+          "id": 12,
+          "title": "Super Smash Bros. Ultimate",
+          "release_year": 2018,
+          "developer": "Bandai Namco Studios",
+          "genre": "Fighting"
+        },
+        {
+          "id": 13,
+          "title": "Overwatch",
+          "release_year": 2016,
+          "developer": "Blizzard Entertainment",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 14,
+          "title": "League of Legends",
+          "release_year": 2009,
+          "developer": "Riot Games",
+          "genre": "MOBA"
+        },
+        {
+          "id": 15,
+          "title": "Counter-Strike: Global Offensive",
+          "release_year": 2012,
+          "developer": "Valve Corporation",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 16,
+          "title": "World of Warcraft",
+          "release_year": 2004,
+          "developer": "Blizzard Entertainment",
+          "genre": "MMORPG"
+        },
+        {
+          "id": 17,
+          "title": "Animal Crossing: New Horizons",
+          "release_year": 2020,
+          "developer": "Nintendo",
+          "genre": "Life simulation"
+        },
+        {
+          "id": 18,
+          "title": "Resident Evil 4",
+          "release_year": 2005,
+          "developer": "Capcom",
+          "genre": "Survival horror"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Paco",
+      "email": "paco@gmail.com",
+      "password": "1234",
+      "games": [
+        {
+          "id": 1,
+          "title": "Super Mario Bros.",
+          "release_year": 1985,
+          "developer": "Nintendo",
+          "genre": "Platformer"
+        },
+        {
+          "id": 2,
+          "title": "The Legend of Zelda: Ocarina of Time",
+          "release_year": 1998,
+          "developer": "Nintendo",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 3,
+          "title": "Grand Theft Auto V",
+          "release_year": 2013,
+          "developer": "Rockstar North",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 4,
+          "title": "Minecraft",
+          "release_year": 2011,
+          "developer": "Mojang Studios",
+          "genre": "Sandbox"
+        },
+        {
+          "id": 5,
+          "title": "Fortnite",
+          "release_year": 2017,
+          "developer": "Epic Games",
+          "genre": "Battle royale"
+        },
+        {
+          "id": 6,
+          "title": "Call of Duty: Modern Warfare",
+          "release_year": 2019,
+          "developer": "Infinity Ward",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 7,
+          "title": "Halo: Combat Evolved",
+          "release_year": 2001,
+          "developer": "Bungie",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 8,
+          "title": "Final Fantasy VII",
+          "release_year": 1997,
+          "developer": "Square",
+          "genre": "Role-playing"
+        },
+        {
+          "id": 9,
+          "title": "God of War",
+          "release_year": 2018,
+          "developer": "Santa Monica Studio",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 10,
+          "title": "Red Dead Redemption 2",
+          "release_year": 2018,
+          "developer": "Rockstar Studios",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 11,
+          "title": "The Elder Scrolls V: Skyrim",
+          "release_year": 2011,
+          "developer": "Bethesda Game Studios",
+          "genre": "Action role-playing"
+        },
+        {
+          "id": 12,
+          "title": "Super Smash Bros. Ultimate",
+          "release_year": 2018,
+          "developer": "Bandai Namco Studios",
+          "genre": "Fighting"
+        },
+        {
+          "id": 13,
+          "title": "Overwatch",
+          "release_year": 2016,
+          "developer": "Blizzard Entertainment",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 14,
+          "title": "League of Legends",
+          "release_year": 2009,
+          "developer": "Riot Games",
+          "genre": "MOBA"
+        },
+        {
+          "id": 15,
+          "title": "Counter-Strike: Global Offensive",
+          "release_year": 2012,
+          "developer": "Valve Corporation",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 16,
+          "title": "World of Warcraft",
+          "release_year": 2004,
+          "developer": "Blizzard Entertainment",
+          "genre": "MMORPG"
+        },
+        {
+          "id": 17,
+          "title": "Animal Crossing: New Horizons",
+          "release_year": 2020,
+          "developer": "Nintendo",
+          "genre": "Life simulation"
+        },
+        {
+          "id": 18,
+          "title": "Resident Evil 4",
+          "release_year": 2005,
+          "developer": "Capcom",
+          "genre": "Survival horror"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pedro",
+      "email": "pedro@gmail.com",
+      "password": "1234",
+      "games": [
+        {
+          "id": 1,
+          "title": "Super Mario Bros.",
+          "release_year": 1985,
+          "developer": "Nintendo",
+          "genre": "Platformer"
+        },
+        {
+          "id": 2,
+          "title": "The Legend of Zelda: Ocarina of Time",
+          "release_year": 1998,
+          "developer": "Nintendo",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 3,
+          "title": "Grand Theft Auto V",
+          "release_year": 2013,
+          "developer": "Rockstar North",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 4,
+          "title": "Minecraft",
+          "release_year": 2011,
+          "developer": "Mojang Studios",
+          "genre": "Sandbox"
+        },
+        {
+          "id": 5,
+          "title": "Fortnite",
+          "release_year": 2017,
+          "developer": "Epic Games",
+          "genre": "Battle royale"
+        },
+        {
+          "id": 6,
+          "title": "Call of Duty: Modern Warfare",
+          "release_year": 2019,
+          "developer": "Infinity Ward",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 7,
+          "title": "Halo: Combat Evolved",
+          "release_year": 2001,
+          "developer": "Bungie",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 8,
+          "title": "Final Fantasy VII",
+          "release_year": 1997,
+          "developer": "Square",
+          "genre": "Role-playing"
+        },
+        {
+          "id": 9,
+          "title": "God of War",
+          "release_year": 2018,
+          "developer": "Santa Monica Studio",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 10,
+          "title": "Red Dead Redemption 2",
+          "release_year": 2018,
+          "developer": "Rockstar Studios",
+          "genre": "Action-adventure"
+        },
+        {
+          "id": 11,
+          "title": "The Elder Scrolls V: Skyrim",
+          "release_year": 2011,
+          "developer": "Bethesda Game Studios",
+          "genre": "Action role-playing"
+        },
+        {
+          "id": 12,
+          "title": "Super Smash Bros. Ultimate",
+          "release_year": 2018,
+          "developer": "Bandai Namco Studios",
+          "genre": "Fighting"
+        },
+        {
+          "id": 13,
+          "title": "Overwatch",
+          "release_year": 2016,
+          "developer": "Blizzard Entertainment",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 14,
+          "title": "League of Legends",
+          "release_year": 2009,
+          "developer": "Riot Games",
+          "genre": "MOBA"
+        },
+        {
+          "id": 15,
+          "title": "Counter-Strike: Global Offensive",
+          "release_year": 2012,
+          "developer": "Valve Corporation",
+          "genre": "First-person shooter"
+        },
+        {
+          "id": 16,
+          "title": "World of Warcraft",
+          "release_year": 2004,
+          "developer": "Blizzard Entertainment",
+          "genre": "MMORPG"
+        },
+        {
+          "id": 17,
+          "title": "Animal Crossing: New Horizons",
+          "release_year": 2020,
+          "developer": "Nintendo",
+          "genre": "Life simulation"
+        },
+        {
+          "id": 18,
+          "title": "Resident Evil 4",
+          "release_year": 2005,
+          "developer": "Capcom",
+          "genre": "Survival horror"
+        }
+      ]
+    }
+  ]
+}

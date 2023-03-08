@@ -1,0 +1,28 @@
+<form class="form" [formGroup]="loginForm" (ngSubmit)="login()">
+  <h2 class="form__h2">Login</h2>
+  <div class="form__field">
+    <input
+      type="email"
+      name="email"
+      formControlName="email"
+      placeholder="Enter email"
+      class="form__input"
+    />
+  </div>
+  <div class="form__field">
+    <input
+      type="password"
+      name="password"
+      formControlName="password"
+      placeholder="Enter password"
+      class="form__input"
+    />
+  </div>
+  <small
+    class="form__small-error"
+    [ngClass]="hasError ? 'form__small-error--show' : 'form__small-error--hide'"
+  >
+    Email or Password incorrect
+  </small>
+  <button class="form__button">Login</button>
+</form>
