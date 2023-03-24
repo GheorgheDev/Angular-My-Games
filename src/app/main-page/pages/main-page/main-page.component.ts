@@ -6,7 +6,7 @@ import { MatTableDataSource } from '@angular/material/table';
 
 import { MainPageService } from '../../services/main-page.service';
 import { User } from 'src/app/interfaces/user.interface';
-import { Game } from 'src/app/interfaces/game.interface';
+import { Cryptos } from 'src/app/interfaces/cryptos.interface';
 
 @Component({
   selector: 'app-main-page',
@@ -16,8 +16,8 @@ import { Game } from 'src/app/interfaces/game.interface';
 export class MainPageComponent implements OnInit {
   userIdLogged: string = '';
   userLogged: User | undefined;
-  dataSource!: MatTableDataSource<Game>;
-  displayedColumns: string[] = ['Title', 'Release Year', 'Developer', 'Genre'];
+  dataSource!: MatTableDataSource<Cryptos>;
+  displayedColumns: string[] = ['Name', 'Value', 'Asset', 'Stock', 'Amount'];
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
 
@@ -29,10 +29,13 @@ export class MainPageComponent implements OnInit {
     this.mainPageService.getUser(this.userIdLogged)
       .subscribe(data => {
         this.userLogged = data;
-        const { games } = this.userLogged as User;
-        this.dataSource = new MatTableDataSource(games);
-        this.dataSource.paginator = this.paginator;
       });
+
+    this.mainPageService.getAllCryptosWithUserCryptos(this.userIdLogged)
+      .subscribe(data => {
+        this.dataSource = new MatTableDataSource(data);
+        this.dataSource.paginator = this.paginator;
+      })
   }
 
   applyFilter(event: Event): void {

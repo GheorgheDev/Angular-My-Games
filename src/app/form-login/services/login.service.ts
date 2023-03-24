@@ -11,10 +11,10 @@ import { User } from 'src/app/interfaces/user.interface';
 export class LoginService {
   constructor(private http: HttpClient) { }
 
-  checkUserExists(userEmail: string, userPassword: string): Observable<User[]> {
-    return this.http.get<User[]>(`http://localhost:3000/users?email=${userEmail}&password=${userPassword}`)
+  checkUserExists(userEmail: string, userPassword: string): Observable<User> {
+    return this.http.get<User>(`http://localhost:3000/api/users/get/${userEmail}/${userPassword}`)
       .pipe(
-        map((response: User[]) => {
+        map((response: User) => {
           return response;
         })
       );

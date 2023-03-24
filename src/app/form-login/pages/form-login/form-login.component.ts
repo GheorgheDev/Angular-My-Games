@@ -32,9 +32,9 @@ export class FormLoginComponent implements OnInit {
 
     this.loginService.checkUserExists(email, password)
       .subscribe(data => {
-        if (data.length > 0) {
-          const { id } = data[0];
-          localStorage.setItem('userId', JSON.stringify(id));
+        if (data) {
+          const { user_id } = data;
+          localStorage.setItem('userId', user_id);
           this.router.navigate(['home']);
         } else {
           this.hasError = true;

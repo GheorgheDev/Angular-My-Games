@@ -1,8 +1,9 @@
-import { Game } from "./game.interface";
-
 export interface User {
-    "id": number;
-    "name": string;
-    "email": string;
-    "games": Game[];
+    user_id: string;
+    username: string;
+    password: string;
+    email: string;
+    fullname: string;
+    birthdate: Date;
+    deposit: number;
 }
