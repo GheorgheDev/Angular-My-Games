@@ -4,12 +4,12 @@
     <a href="#" title="log out" (click)="logOut($event)">
       <img
         src="./assets/images/logout.png"
-        alt="paco"
+        alt="image"
         class="container-table__icon"
       />
     </a>
   </div>
-  <div class="paco">
+  <div class="container-table__filter">
     <mat-form-field appearance="standard">
       <mat-label>Filter</mat-label>
       <input
@@ -46,7 +46,7 @@
 
       <ng-container matColumnDef="Amount">
         <th mat-header-cell *matHeaderCellDef>Amount</th>
-        <td mat-cell *matCellDef="let row">{{ row.amount }}</td>
+        <td mat-cell *matCellDef="let row">{{ row.amount || 0 }}</td>
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
